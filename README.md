@@ -1,4 +1,18 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# adopets-fe-test
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). 
+
+### Live Demo
+The aplication is running on Firebase Hosting, [Link to App](https://adopets-fe-test.firebaseapp.com/)
+
+### Requirements:
+- Use Typescript;
+- Use [ant.design](https://ant.design);
+- Use Javascript Best Practices;
+- Have to writh all code in english;
+- Upload in a public repository, like Github or Bitbucket;
+- Store the session to keep logged in on page reload;
+- Plus: Component unit tests
 
 ## Available Scripts
 

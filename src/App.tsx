@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Card, Col, Layout, Pagination, Row, Select, Switch } from 'antd';
 import './App.css';
 import getPets from './services/api';
-import queryEditor from './services/utils'
+import { queryEditor } from './services/utils'
 import { Result } from './models/result';
 import { Query } from './models/query';
 

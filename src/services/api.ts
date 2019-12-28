@@ -9,10 +9,10 @@ const api = axios.create({
     }
 })
 
-const getPets = async (): Promise<any> => {
+const getPets = async (query: any): Promise<any> => {
     const token = await getUserToken()
 
-    const petResponse = await api.post('/pet/search', null, {
+    const petResponse = await api.post('/pet/search', query, {
         headers: {
             Authorization: 'Bearer ' + token
         }
@@ -47,7 +47,5 @@ const getUserToken = async (): Promise<string> => {
         return userToken
     }
 }
-
-
 
 export default getPets

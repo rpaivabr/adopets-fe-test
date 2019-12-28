@@ -1,10 +1,29 @@
 .App {
   text-align: center;
+  min-height: 100vh;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.layout {
+  min-height: 100vh;
+}
+
+.logo {
+  width: 180px;
+  height: 64px;
+  background-image: url(./assets/logo.png);
+  background-repeat: no-repeat;
+  background-size: 180px 64px;
+  margin: 0 24px 0 0;
+  float: left;
+}
+
+.card-image {
+  height: 20vh;
 }
 
 @media (prefers-reduced-motion: no-preference) {
